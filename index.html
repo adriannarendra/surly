@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth overflow-x-hidden">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/output.css">
+    <title>Surly 2.0</title>
+</head>
+<body>
+    <!-- header start A-->
+    <header id="header" class="navbar-fixed header absolute bg-transparent top-0 left-0 w-full h-[8%] lg:h-[10%] z-10 flex items-center">
+        <div class="w-full mx-auto px-[16px] py-[19px]">
+            <div class="relative flex justify-between items-center">
+                <a href="#home" class="text-orange-500 font-mono font-black text-2xl cursor-pointer">Surly</a>
+                <div class="flex items-center">
+                    <button id="hamburger" name="hamburger" type="button" class="absolute block right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-500 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line"></span>
+                        <span class="hamburger-line origin-bottom-left transition duration-500 ease-in-out"></span>
+                    </button>
+                    <nav id="nav-menu" class="absolute right-0 max-w-[250px] w-full bg-white bg-opacity-80 top-full rounded-lg shadow-lg hidden lg:block lg:static lg:max-w-full lg:bg-transparent lg:shadow-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#product" class="text-orange-500 font-semibold transition duration-200 font-mono text-base py-2 mx-8 flex group-hover:text-red-500">the best</a>
+                            </li>
+
+                            <li class="group">
+                                <a href="#product2" class="text-orange-500 font-semibold transition duration-200 font-mono text-base py-2 mx-8 flex group-hover:text-red-500">classic</a>
+                            </li>
+
+                            <li class="group">
+                                <a href="#about" class="text-orange-500 font-semibold transition duration-200 font-mono text-base py-2 mx-8 flex group-hover:text-red-500">socials</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- section home start -->
+    <section id="home">
+        <div class="w-full relative h-screen">
+            <video autoplay loop muted  poster="src/bg-video.mp4" alt="background" class="w-full h-full absolute object-cover">
+                <source src="src/bg-video.mp4" type="video/mp4">
+            </video>
+            <div class="absolute top-0 left-0 w-full h-full bg-gray-900/20">
+                <div class="absolute w-full h-full justify-center text-center top-0 left-0 items-center md:place-items-start md:pl-4 flex flex-col">
+                    <h1 class="text-white text-6xl font-extrabold mb-3 md:text-9xl -tracking-wider">SURLY <span class="text-orange-500">2.0</span></h1>
+                    <p class="text-white text-sm mb-3 md:text-[1.65rem] md:tracking-widest">everything you <span class="text-orange-500 font-bold">need</span>, nothing you <span class="text-orange-500 font-bold">don't</span>.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- section product start -->
+    <section id="product">
+        <div style="background-image: url(src/Desktop\ -\ 1.png);" class="mb-10 bg-cover max-w-[1250px] mx-auto py-6 px-4 text-left flex flex-col lg:flex-row-reverse lg:gap-20">
+            <div class="flex flex-col justify-center items-center lg:w-3/5">
+                <div class=" w-full h-[400px] lg:h-screen grid grid-cols-2 grid-rows-2 gap-2 lg:gap-3">
+                    <img src="src/picture2.jpg" alt="" class="row-span-2 col-span-2 rounded-tl-lg rounded-tr-lg lg:col-span-1 lg:rounded-tl-xl lg:rounded-bl-xl w-full h-full object-cover">
+                    <img src="src/picture3.jpg" alt="" class="lg:rounded-tr-xl rounded-bl-lg w-full h-full object-cover">
+                    <img src="src/picture1.jpg" alt="" class="lg:rounded-br-xl rounded-br-lg w-full h-full object-cover">
+                </div>
+            </div>
+            <div class="lg:w-2/5">
+                <h1 class="font-bold text-4xl lg:text-5xl my-6">The All New <span class="text-orange-500 -tracking-widest font-mono font-bold"><br>Surly 2.0</span></h1>
+                <p class="text-lg mb-3 text-justify font-medium">Introducing the <span class="text-orange-500 -tracking-widest font-mono font-bold">Surly 2.0</span> , a superior bike designed for the modern adventurer. With its rugged yet lightweight frame, this bike offers unparalleled durability and agility, making it ideal for urban commuting, off-road exploration, and everything in between. <br><br>The <span class="text-orange-500 -tracking-widest font-mono font-bold">Surly 2.0</span> boasts precision engineering, ensuring a smooth and responsive ride on any terrain. Equipped with top-tier components and advanced gearing, it delivers exceptional performance and reliability. Whether you're tackling city streets or rugged trails, the <span class="text-orange-500 -tracking-widest font-mono font-bold">Surly 2.0</span> is your ultimate companion for adventure and exploration.</p>
+                <span class="bg-slate-200 w-full h-[2px] mx-auto block my-5"></span>
+                <div class="flex">
+                    <h3 class="-tracking-widest font-mono font-bold text-2xl lg:text-3xl inline">Surly <span class="text-orange-500 ">2.0</span></h3>
+                    <h3 class="font-mono font-bold text-2xl lg:text-3xl inline ml-auto">$1899.99</h3>
+                </div>
+                <div class="lg:flex lg:items-center lg:gap-10">
+                    <div class="my-4 lg:w-full">
+                        <span class="relative">
+                            <span class="block absolute border-black border-[3px] rounded-lg bg-transparent w-full h-full"></span>
+                            <button class=" block mx-auto   border-black border-[3px] w-full h-9 rounded-lg font-mono font-medium bg-black text-white hover:-translate-y-2 hover:-translate-x-2 transition duration-200 ease-in-out relative lg:h-10">BUY NOW</button>
+                        </span>
+                    </div>
+                    
+                    <span class="relative lg:w-full">
+                        <span class="block absolute border-black border-[3px] rounded-lg bg-transparent w-full h-full"></span>
+                        <button class="block mx-auto  border-black border-[3px] w-full h-9 rounded-lg font-mono font-medium bg-white text-black hover:-translate-y-2 hover:-translate-x-2 transition duration-200 ease-in-out relative lg:h-10">LEARN MORE</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- section product2 start -->
+    <section id="product2">
+        <div class="mt-10 max-w-[1250px] mx-auto py-6 px-4 text-left flex flex-col lg:flex-row lg:gap-20">
+            <div class="flex flex-col justify-center items-cente lg:w-2/5">
+                <div class=" w-full h-[400px] lg:h-screen grid grid-rows-2 gap-2 lg:gap-3">
+                    <img src="src/picture2-1.jpg" alt="" class="rounded-tl-lg rounded-tr-lg lg:col-span-1 lg:rounded-tl-xl lg:rounded-tr-xl w-full h-full object-cover">
+                    <img src="src/picture2-2.jpg" alt="" class="lg:rounded-bl-xl lg:rounded-br-xl rounded-bl-lg rounded-br-lg w-full h-full object-cover">
+                </div>
+            </div>
+            <div class="lg:w-3/5">
+                <h1 class="font-bold text-4xl lg:text-5xl my-6">Old Trusty <span class="text-red-500 -tracking-widest font-mono font-bold">Surly</span></h1>
+                <p class="text-lg mb-3 text-justify font-medium">Introducing the <span class="text-red-500 -tracking-widest font-mono font-bold">Surly</span>, a trailblazing predecessor to the renowned <span class="text-orange-500 -tracking-widest font-mono font-bold">Surly 2.0</span>. Crafted with the same commitment to quality and innovation, the <span class="text-red-500 -tracking-widest font-mono font-bold">Surly</span> offers a blend of rugged durability and versatile performance. <br><br>Its robust frame and advanced components ensure a smooth, responsive ride across various terrains, from city streets to off-road paths. With its reliable gearing and sturdy construction, the <span class="text-red-500 -tracking-widest font-mono font-bold">Surly</span> remains a timeless choice for cyclists seeking adventure and reliability in their rides. <br><br>Whether navigating urban landscapes or venturing into the wilderness, the <span class="text-red-500 -tracking-widest font-mono font-bold">Surly</span> paves the way for an exhilarating cycling experience.</p>
+                <span class="bg-slate-200 w-full h-[2px] mx-auto block my-5"></span>
+                <div class="flex">
+                    <h3 class="-tracking-widest font-mono font-bold text-2xl lg:text-3xl inline"><span class="text-red-500 -tracking-widest font-mono font-bold">Surly</span></h3>
+                    <h3 class="font-mono font-bold text-2xl lg:text-3xl inline ml-auto">$1399.99</h3>
+                </div>
+                <div class="lg:flex lg:items-center lg:gap-10">
+                    <div class="my-4 lg:w-full">
+                        <span class="relative">
+                            <span class="block absolute border-black border-[3px] rounded-lg bg-transparent w-full h-full"></span>
+                            <button class=" block mx-auto   border-black border-[3px] w-full h-9 rounded-lg font-mono font-medium bg-black text-white hover:-translate-y-2 hover:-translate-x-2 transition duration-200 ease-in-out relative lg:h-10">BUY NOW</button>
+                        </span>
+                    </div>
+                    
+                    <span class="relative lg:w-full">
+                        <span class="block absolute border-black border-[3px] rounded-lg bg-transparent w-full h-full"></span>
+                        <button class="block mx-auto  border-black border-[3px] w-full h-9 rounded-lg font-mono font-medium bg-white text-black hover:-translate-y-2 hover:-translate-x-2 transition duration-200 ease-in-out relative lg:h-10">LEARN MORE</button>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- section social media -->
+    <section id="about">
+        <div class="bg-gradient-to-r from-orange-500 to-red-500">
+            <div class="max-w-[1240px] mx-auto py-1 px-4">
+                <div class="flex flex-wrap p-2">
+                    <div class="w-full px-4 mb-6 lg:w-1/2">
+                        <span class="relative">
+                            <span class="block absolute inset-[-5px] bg-white" aria-hidden="true"></span>
+                            <h1 class="inline font-mono font-extrabold text-3xl lg:pt-10 relative text-orange-500">About us</h1>
+                        </span>
+                        <h3 class="text-white font-semibold text-xl uppercase mb-2">ENSURING QUALITY SINCE 1956.</h3>
+                        <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum, commodi!</p>
+                    </div>
+                    <div class="w-full px-4 mb-3 lg:w-1/2 lg:pt-10">
+                        <span class="relative">
+                            <span class="block absolute inset-[-5px] bg-white" aria-hidden="true"></span>
+                            <h1 class="inline font-mono font-semibold text-2xl uppercase mb-2 relative text-orange-500">SOCIAL MEDIA</h1>
+                        </span>
+                        <p class="text-white">Follow us to keep an eye on the latest bike news!</p>
+                        <div class="flex items-center justify-between w-1/2 lg:w-1/3 mt-3">
+                            <a href="#" class="border rounded-full px-2 py-2 border-white w-9 h-9 justify-center items-center hover:bg-gradient-to-tr from-red-500 to-blue-600 hover:text-white transition duration-500 ease-in-out text-white">
+                                <svg role="img" width="20px" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Instagram</title><path d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"/></svg>
+                            </a>
+                            <a href="#" class="border rounded-full px-2 py-2 border-white w-9 h-9 justify-center items-center hover:bg-gradient-to-tr from-gray-500 to-black hover:text-white transition duration-500 ease-in-out text-white">
+                                <svg role="img" width="20px" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>X</title><path d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></svg>
+                            </a>
+                            <a href="#" class="border rounded-full px-2 py-2 border-white w-9 h-9 justify-center items-center hover:bg-gradient-to-tr from-red-600 to-red-700 hover:text-white transition duration-500 ease-in-out text-white">
+                                <svg role="img" width="20px" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>YouTube</title><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg> 
+                            </a>
+                            <a href="#" class="border rounded-full px-2 py-2 border-white w-9 h-9 justify-center items-center hover:bg-gradient-to-tr from-blue-400 to-blue-600 hover:text-white transition duration-500 ease-in-out text-white">
+                                <svg role="img" width="20px" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Discord</title><path d="M20.317 4.3698a19.7913 19.7913 0 00-4.8851-1.5152.0741.0741 0 00-.0785.0371c-.211.3753-.4447.8648-.6083 1.2495-1.8447-.2762-3.68-.2762-5.4868 0-.1636-.3933-.4058-.8742-.6177-1.2495a.077.077 0 00-.0785-.037 19.7363 19.7363 0 00-4.8852 1.515.0699.0699 0 00-.0321.0277C.5334 9.0458-.319 13.5799.0992 18.0578a.0824.0824 0 00.0312.0561c2.0528 1.5076 4.0413 2.4228 5.9929 3.0294a.0777.0777 0 00.0842-.0276c.4616-.6304.8731-1.2952 1.226-1.9942a.076.076 0 00-.0416-.1057c-.6528-.2476-1.2743-.5495-1.8722-.8923a.077.077 0 01-.0076-.1277c.1258-.0943.2517-.1923.3718-.2914a.0743.0743 0 01.0776-.0105c3.9278 1.7933 8.18 1.7933 12.0614 0a.0739.0739 0 01.0785.0095c.1202.099.246.1981.3728.2924a.077.077 0 01-.0066.1276 12.2986 12.2986 0 01-1.873.8914.0766.0766 0 00-.0407.1067c.3604.698.7719 1.3628 1.225 1.9932a.076.076 0 00.0842.0286c1.961-.6067 3.9495-1.5219 6.0023-3.0294a.077.077 0 00.0313-.0552c.5004-5.177-.8382-9.6739-3.5485-13.6604a.061.061 0 00-.0312-.0286zM8.02 15.3312c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9555-2.4189 2.157-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.9555 2.4189-2.1569 2.4189zm7.9748 0c-1.1825 0-2.1569-1.0857-2.1569-2.419 0-1.3332.9554-2.4189 2.1569-2.4189 1.2108 0 2.1757 1.0952 2.1568 2.419 0 1.3332-.946 2.4189-2.1568 2.4189Z"/></svg>  
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <section id="footer">
+        
+
+<footer class="bg-white">
+    <div class="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 Adrian Elfiky. All Rights Reserved.
+    </span>
+    <ul class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+        <li>
+            <a href="#" class="hover:underline me-4 md:me-6">About</a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline me-4 md:me-6">Privacy Policy</a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline me-4 md:me-6">Licensing</a>
+        </li>
+        <li>
+            <a href="#" class="hover:underline">Contact</a>
+        </li>
+    </ul>
+    </div>
+</footer>
+
+    </section>
+
+    <script src="src/js/script.js"></script>
+</body>
+</html>
