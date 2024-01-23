@@ -24,3 +24,7 @@
 .active > span:nth-child(3){
     @apply  -rotate-45 
 }
+
+#dark-toggle:checked ~ label div.circle{
+    @apply translate-x-3;
+}
